@@ -1,0 +1,27 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --watch",
+    "test": "NODE_ENV=testing karma start --single-run",
+    "test:watch": "NODE_ENV=testing karma start"
+  },
+  "author": "Magnus Fredlundh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "chai": "^3.5.0",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.2.0",
+    "webpack": "^3.8.1"
+  }
+}
